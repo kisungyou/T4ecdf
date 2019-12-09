@@ -1,0 +1,12 @@
+Package: T4ecdf
+Type: Package
+Title: Tools for Inference with Empirical CDF
+Version: 0.1.0
+Authors@R: c(person("Kisung", "You", role = c("aut", "cre"),email = "kyoustat@gmail.com",comment=c(ORCID="0000-0002-8584-459X")))
+Description: More about what it does (maybe more than one line)
+Encoding: UTF-8
+License: GPL (>= 3)
+Imports: Rcpp, Rdpack, cluster, fastcluster, stats, utils
+LinkingTo: Rcpp, RcppArmadillo
+RdMacros: Rdpack
+RoxygenNote: 7.0.2
