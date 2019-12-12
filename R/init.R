@@ -10,7 +10,7 @@
   this.version = packageVersion("T4ecdf")
   
   ## Print on Screen
-  packageStartupMessage("**-------------------------------------------------------------**")
+  packageStartupMessage("**----------------------------------------------------------**")
   packageStartupMessage("** T4ecdf")
   packageStartupMessage("**  - Tools for Inference with Empirical CDF")
   packageStartupMessage("**")
@@ -18,7 +18,7 @@
   packageStartupMessage("** Maintainer : Kisung You (kyoustat@gmail.com)")
   packageStartupMessage("**")
   packageStartupMessage("** Please share any bugs or suggestions to the maintainer.")
-  packageStartupMessage("**-------------------------------------------------------------**")
+  packageStartupMessage("**----------------------------------------------------------**")
 }
 
 .onUnload <- function(libpath) {
